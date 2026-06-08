@@ -2,7 +2,8 @@
 
 <albumes>
 
-    <album>
+    <album
+    <id>1</id>>
         <titulo>OK Computer</titulo>
         <artista>Radiohead</artista>
         <genero>Rock Alternativo</genero>
@@ -11,7 +12,7 @@
     </album>
 
     <album>
-    <id>4</id>
+    <id>2</id>
 
     <titulo>In Rainbows</titulo>
 
@@ -31,6 +32,7 @@
 </album>
 
     <album>
+    <id>3</id>
         <titulo>DAMN.</titulo>
         <artista>Kendrick Lamar</artista>
         <genero>Hip Hop</genero>
@@ -45,6 +47,7 @@
     </album>
 
     <album>
+    <id>4</id>
         <titulo>AM</titulo>
         <artista>Arctic Monkeys</artista>
         <genero>Indie</genero>
@@ -53,6 +56,7 @@
     </album>
 
     <album>
+    <id>5</id>
         <titulo>Discovery</titulo>
         <artista>Daft Punk</artista>
         <genero>Electrónica</genero>
@@ -62,7 +66,7 @@
 
 
     <album>
-    <id>13</id>
+    <id>6</id>
     <titulo>The Car</titulo>
     <artista>Arctic Monkeys</artista>
     <genero>Indie</genero>
@@ -75,7 +79,7 @@
 </album>
 
 <album>
-    <id>14</id>
+    <id>7</id>
     <titulo>The New Abnormal</titulo>
     <artista>The Strokes</artista>
     <genero>Indie</genero>
@@ -88,7 +92,7 @@
 </album>
 
 <album>
-    <id>15</id>
+    <id>8</id>
     <titulo>Un Verano Sin Ti</titulo>
     <artista>Bad Bunny</artista>
     <genero>Reggaetón</genero>
@@ -101,7 +105,7 @@
 </album>
 
 <album>
-    <id>16</id>
+    <id>9</id>
     <titulo>Thriller</titulo>
     <artista>Michael Jackson</artista>
     <genero>Pop</genero>
@@ -114,7 +118,7 @@
 </album>
 
 <album>
-    <id>17</id>
+    <id>10</id>
     <titulo>Ten</titulo>
     <artista>Pearl Jam</artista>
     <genero>Rock Alternativo</genero>
@@ -127,7 +131,7 @@
 </album>
 
 <album>
-    <id>18</id>
+    <id>11</id>
     <titulo>Nevermind</titulo>
     <artista>Nirvana</artista>
     <genero>Rock Alternativo</genero>
@@ -140,7 +144,7 @@
 </album>
 
 <album>
-    <id>19</id>
+    <id>12</id>
     <titulo>Sgt. Pepper's Lonely Hearts Club Band</titulo>
     <artista>The Beatles</artista>
     <genero>Rock</genero>
@@ -153,7 +157,7 @@
 </album>
 
 <album>
-    <id>20</id>
+    <id>13</id>
     <titulo>Nectar</titulo>
     <artista>Joji</artista>
     <genero>Pop</genero>
