@@ -74,6 +74,66 @@ fetch("xml/albumes.xml")
 
                     <p><strong>Descripción:</strong> ${descripcion}</p>
 
+
+
+
+
+
+
+
+                    <h3>Tu calificación</h3>
+
+<div id="calificacionUsuario">
+
+    <input type="radio" name="calificacion" value="1"> 1 ⭐
+
+    <input type="radio" name="calificacion" value="2"> 2 ⭐
+
+    <input type="radio" name="calificacion" value="3"> 3 ⭐
+
+    <input type="radio" name="calificacion" value="4"> 4 ⭐
+
+    <input type="radio" name="calificacion" value="5"> 5 ⭐
+
+    <br><br>
+
+    <button type="button" onclick="calificarAlbum()">
+
+        Guardar calificación
+
+    </button>
+
+    <p id="mensajeCalificacion"></p>
+
+</div>
+
+
+<h3>Agregar a lista</h3>
+
+<select id="listaSeleccionada">
+
+    <option value="Favoritos">
+
+        Favoritos
+
+    </option>
+
+    <option value="Escuchar después">
+
+        Escuchar después
+
+    </option>
+
+</select>
+
+<button type="button" onclick="agregarALista()">
+
+    Agregar
+
+</button>
+
+<p id="mensajeLista"></p>
+
                 `;
 
                 break;
@@ -81,3 +141,53 @@ fetch("xml/albumes.xml")
         }
 
     });
+
+
+    function calificarAlbum() {
+
+    const seleccionada =
+        document.querySelector(
+            'input[name="calificacion"]:checked'
+        );
+
+    const mensaje =
+        document.getElementById(
+            "mensajeCalificacion"
+        );
+
+    if (!seleccionada) {
+
+        mensaje.textContent =
+            "Selecciona una calificación.";
+
+        return;
+
+    }
+
+    mensaje.textContent =
+        `Has calificado este álbum con ${seleccionada.value} estrellas.`;
+
+}
+
+
+
+
+
+
+
+function agregarALista() {
+
+    const lista =
+        document.getElementById(
+            "listaSeleccionada"
+        ).value;
+
+    const mensaje =
+        document.getElementById(
+            "mensajeLista"
+        );
+
+    mensaje.textContent =
+        `Álbum agregado a "${lista}".`;
+
+}

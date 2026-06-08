@@ -179,3 +179,115 @@ tr:hover {
     margin-bottom: 5px;
 
 }
+
+
+
+
+#tablaAlbumes a {
+    color: #5a94cf;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#tablaAlbumes a:hover {
+
+
+
+    
+    color: #D4E6F7;
+    text-decoration: underline;
+}
+
+#tablaAlbumes a:visited {
+    color: #A7C7E7;
+}
+
+
+
+
+
+
+
+#mensajeCalificacion,
+#mensajeLista {
+
+    margin-top: 10px;
+
+    color: #7ED957;
+
+    font-weight: bold;
+
+}
+
+#detalleAlbum select {
+
+    margin-top: 10px;
+
+    margin-right: 10px;
+
+}
+
+#detalleAlbum input[type="radio"] {
+
+    margin-right: 5px;
+
+}
+
+
+
+
+
+header {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+.logoCompleto {
+
+    width: 330px;
+
+    max-width: 90%;
+
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+
+    padding: 15px 0;
+
+}
+
+.logoCompleto {
+
+    width: 250px;
+
+    transition: transform 0.2s ease;
+
+}
+
+.logoCompleto:hover {
+
+    transform: scale(1.03);
+
+}
