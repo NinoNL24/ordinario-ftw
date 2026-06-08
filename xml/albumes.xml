@@ -10,17 +10,37 @@
     </album>
 
     <album>
-        <titulo>In Rainbows</titulo>
-        <artista>Radiohead</artista>
-        <genero>Rock Alternativo</genero>
-        <anio>2007</anio>
-    </album>
+    <id>4</id>
+
+    <titulo>In Rainbows</titulo>
+
+    <artista>Radiohead</artista>
+
+    <genero>Rock Alternativo</genero>
+
+    <anio>2007</anio>
+
+    <calificacion>4.8</calificacion>
+
+    <duracion>42</duracion>
+
+    <descripcion>
+        Septimo album de estudio de Radiohead.
+    </descripcion>
+</album>
 
     <album>
-        <titulo>Kid A</titulo>
-        <artista>Radiohead</artista>
-        <genero>Rock Alternativo</genero>
-        <anio>2000</anio>
+        <titulo>DAMN.</titulo>
+        <artista>Kendrick Lamar</artista>
+        <genero>Hip Hop</genero>
+        <anio>2017</anio>
+        <calificacion>4.6</calificacion>
+
+    <duracion>54</duracion>
+
+    <descripcion>
+        Cuarto album de estudio del rapero Kendrick Lamar.
+    </descripcion>
     </album>
 
     <album>
