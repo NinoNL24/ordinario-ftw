@@ -22,6 +22,10 @@ fetch("xml/albumes.xml")
                     .getElementsByTagName("titulo")[0]
                     .textContent;
 
+                const id = albumes[i]
+                    .getElementsByTagName("id")[0]
+                    .textContent;
+
                 const artista = albumes[i]
                     .getElementsByTagName("artista")[0]
                     .textContent;
@@ -45,7 +49,11 @@ fetch("xml/albumes.xml")
 
                     tabla.innerHTML += `
                         <tr>
-                            <td>${titulo}</td>
+                        <td>
+                        <a href="detalle.html?id=${id}">
+                        ${titulo}
+                        </a>
+                            </td>
                             <td>${artista}</td>
                             <td>${genero}</td>
                             <td>${anio}</td>

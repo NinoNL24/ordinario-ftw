@@ -2,14 +2,19 @@
 
 <albumes>
 
-    <album
-    <id>1</id>>
+    <album>
+    <id>1</id>
         <titulo>OK Computer</titulo>
         <artista>Radiohead</artista>
         <genero>Rock Alternativo</genero>
         <anio>1997</anio>
         <calificacion>4.6</calificacion>
-    </album>
+        <duracion>37</duracion>
+    <descripcion>
+        Septimo album de estudio de Arctic Monkeys, caracterizado por una fuerte influencia del pop orquestal y sonidos cinematograficos.
+    </descripcion>
+</album>
+    
 
     <album>
     <id>2</id>
@@ -53,7 +58,12 @@
         <genero>Indie</genero>
         <anio>2013</anio>
         <calificacion>4.6</calificacion>
-    </album>
+        <duracion>37</duracion>
+    <descripcion>
+        Septimo album de estudio de Arctic Monkeys, caracterizado por una fuerte influencia del pop orquestal y sonidos cinematograficos.
+    </descripcion>
+</album>
+    
 
     <album>
     <id>5</id>
@@ -62,7 +72,12 @@
         <genero>Electrónica</genero>
         <anio>2001</anio>
         <calificacion>4.6</calificacion>
-    </album>
+        <duracion>37</duracion>
+    <descripcion>
+        Septimo album de estudio de Arctic Monkeys, caracterizado por una fuerte influencia del pop orquestal y sonidos cinematograficos.
+    </descripcion>
+</album>
+   
 
 
     <album>
