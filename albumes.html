@@ -32,6 +32,23 @@
 
     <h2>Explorar álbumes</h2>
 
+<label for="buscar">Buscar álbum:</label>
+<input type="text" id="buscar" placeholder="Escribe el nombre del álbum">
+
+<br><br>
+
+<label for="filtroGenero">Género:</label>
+<select id="filtroGenero">
+    <option value="Todos">Todos</option>
+    <option value="Rock Alternativo">Rock Alternativo</option>
+    <option value="Indie">Indie</option>
+    <option value="Electrónica">Electrónica</option>
+</select>
+
+<br><br>
+
+
+
     <table>
 
         <thead>
@@ -43,7 +60,7 @@
             </tr>
         </thead>
 
-        <tbody id="tablaAlbumes">
+        <tbody id="tablaAlbumes"></tbody>
 
         </tbody>
 

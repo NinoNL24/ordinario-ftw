@@ -6,33 +6,59 @@ fetch("xml/albumes.xml")
         const albumes = data.getElementsByTagName("album");
 
         const tabla = document.getElementById("tablaAlbumes");
+        const buscar = document.getElementById("buscar");
+        const filtroGenero = document.getElementById("filtroGenero");
 
-        for (let i = 0; i < albumes.length; i++) {
+        function mostrarAlbumes() {
 
-            const titulo = albumes[i]
-                .getElementsByTagName("titulo")[0]
-                .textContent;
+            tabla.innerHTML = "";
 
-            const artista = albumes[i]
-                .getElementsByTagName("artista")[0]
-                .textContent;
+            const textoBusqueda = buscar.value.toLowerCase();
+            const generoSeleccionado = filtroGenero.value;
 
-            const genero = albumes[i]
-                .getElementsByTagName("genero")[0]
-                .textContent;
+            for (let i = 0; i < albumes.length; i++) {
 
-            const anio = albumes[i]
-                .getElementsByTagName("anio")[0]
-                .textContent;
+                const titulo = albumes[i]
+                    .getElementsByTagName("titulo")[0]
+                    .textContent;
 
-            tabla.innerHTML += `
-                <tr>
-                    <td>${titulo}</td>
-                    <td>${artista}</td>
-                    <td>${genero}</td>
-                    <td>${anio}</td>
-                </tr>
-            `;
+                const artista = albumes[i]
+                    .getElementsByTagName("artista")[0]
+                    .textContent;
+
+                const genero = albumes[i]
+                    .getElementsByTagName("genero")[0]
+                    .textContent;
+
+                const anio = albumes[i]
+                    .getElementsByTagName("anio")[0]
+                    .textContent;
+
+                const coincideBusqueda =
+                    titulo.toLowerCase().includes(textoBusqueda);
+
+                const coincideGenero =
+                    generoSeleccionado === "Todos" ||
+                    genero === generoSeleccionado;
+
+                if (coincideBusqueda && coincideGenero) {
+
+                    tabla.innerHTML += `
+                        <tr>
+                            <td>${titulo}</td>
+                            <td>${artista}</td>
+                            <td>${genero}</td>
+                            <td>${anio}</td>
+                        </tr>
+                    `;
+                }
+            }
         }
+
+        mostrarAlbumes();
+
+        buscar.addEventListener("input", mostrarAlbumes);
+
+        filtroGenero.addEventListener("change", mostrarAlbumes);
 
     });
