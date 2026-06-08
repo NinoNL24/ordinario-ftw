@@ -28,11 +28,45 @@
 
     <main>
 
-        <h2>Ranking</h2>
+        <section>
 
-        <p>
-            Plataforma para explorar álbumes musicales, descubrir nuevos artistas y consultar rankings de música.
-        </p>
+    <h2>Rankings</h2>
+
+    <label for="filtroGeneroRanking">Género:</label>
+
+    <select id="filtroGeneroRanking">
+        <option value="Todos">Todos</option>
+        <option value="Rock">Rock</option>
+        <option value="Indie">Indie</option>
+        <option value="Hip Hop">Hip Hop</option>
+        <option value="Electrónica">Electrónica</option>
+        <option value="Pop">Pop</option>
+        <option value="Reggaetón">Reggaetón</option>
+    </select>
+
+    <br><br>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Álbum</th>
+                <th>Artista</th>
+                <th>Género</th>
+                <th>Calificación</th>
+            </tr>
+        </thead>
+
+        <tbody id="tablaRanking">
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<script src="js/ranking.js"></script>
 
     </main>
 

@@ -7,6 +7,7 @@
         <artista>Radiohead</artista>
         <genero>Rock Alternativo</genero>
         <anio>1997</anio>
+        <calificacion>4.6</calificacion>
     </album>
 
     <album>
@@ -48,6 +49,7 @@
         <artista>Arctic Monkeys</artista>
         <genero>Indie</genero>
         <anio>2013</anio>
+        <calificacion>4.6</calificacion>
     </album>
 
     <album>
@@ -55,6 +57,113 @@
         <artista>Daft Punk</artista>
         <genero>Electrónica</genero>
         <anio>2001</anio>
+        <calificacion>4.6</calificacion>
     </album>
 
+
+    <album>
+    <id>13</id>
+    <titulo>The Car</titulo>
+    <artista>Arctic Monkeys</artista>
+    <genero>Indie</genero>
+    <anio>2022</anio>
+    <calificacion>4.8</calificacion>
+    <duracion>37</duracion>
+    <descripcion>
+        Septimo album de estudio de Arctic Monkeys, caracterizado por una fuerte influencia del pop orquestal y sonidos cinematograficos.
+    </descripcion>
+</album>
+
+<album>
+    <id>14</id>
+    <titulo>The New Abnormal</titulo>
+    <artista>The Strokes</artista>
+    <genero>Indie</genero>
+    <anio>2020</anio>
+    <calificacion>4.6</calificacion>
+    <duracion>45</duracion>
+    <descripcion>
+        Sexto album de estudio de The Strokes, ganador del premio Grammy al Mejor Album de Rock en 2021.
+    </descripcion>
+</album>
+
+<album>
+    <id>15</id>
+    <titulo>Un Verano Sin Ti</titulo>
+    <artista>Bad Bunny</artista>
+    <genero>Reggaetón</genero>
+    <anio>2022</anio>
+    <calificacion>4.3</calificacion>
+    <duracion>81</duracion>
+    <descripcion>
+        Quinto album de estudio de Bad Bunny, inspirado en el verano y en diversos ritmos latinos y caribeños.
+    </descripcion>
+</album>
+
+<album>
+    <id>16</id>
+    <titulo>Thriller</titulo>
+    <artista>Michael Jackson</artista>
+    <genero>Pop</genero>
+    <anio>1982</anio>
+    <calificacion>4.9</calificacion>
+    <duracion>42</duracion>
+    <descripcion>
+        Sexto album de estudio de Michael Jackson y el album mas vendido de todos los tiempos.
+    </descripcion>
+</album>
+
+<album>
+    <id>17</id>
+    <titulo>Ten</titulo>
+    <artista>Pearl Jam</artista>
+    <genero>Rock Alternativo</genero>
+    <anio>1991</anio>
+    <calificacion>4.7</calificacion>
+    <duracion>53</duracion>
+    <descripcion>
+        Album debut de Pearl Jam y uno de los trabajos mas importantes del movimiento grunge de los años noventa.
+    </descripcion>
+</album>
+
+<album>
+    <id>18</id>
+    <titulo>Nevermind</titulo>
+    <artista>Nirvana</artista>
+    <genero>Rock Alternativo</genero>
+    <anio>1991</anio>
+    <calificacion>4.8</calificacion>
+    <duracion>49</duracion>
+    <descripcion>
+        Segundo album de estudio de Nirvana que popularizo el grunge a nivel mundial gracias a canciones como Smells Like Teen Spirit.
+    </descripcion>
+</album>
+
+<album>
+    <id>19</id>
+    <titulo>Sgt. Pepper's Lonely Hearts Club Band</titulo>
+    <artista>The Beatles</artista>
+    <genero>Rock</genero>
+    <anio>1967</anio>
+    <calificacion>4.8</calificacion>
+    <duracion>40</duracion>
+    <descripcion>
+        Octavo album de estudio de The Beatles, considerado uno de los discos mas influyentes en la historia de la musica popular.
+    </descripcion>
+</album>
+
+<album>
+    <id>20</id>
+    <titulo>Nectar</titulo>
+    <artista>Joji</artista>
+    <genero>Pop</genero>
+    <anio>2020</anio>
+    <calificacion>4.4</calificacion>
+    <duracion>53</duracion>
+    <descripcion>
+        Segundo album de estudio de Joji, reconocido por combinar elementos de R&B alternativo, pop y lo-fi.
+    </descripcion>
+</album>
+
 </albumes>
+
