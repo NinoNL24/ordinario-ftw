@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<usuarios>
+
+    <usuario>
+        <username>admin</username>
+        <password>1234</password>
+        <nombre>Administrador</nombre>
+    </usuario>
+
+    <usuario>
+        <username>kuno</username>
+        <password>radiohead</password>
+        <nombre>Kuno</nombre>
+    </usuario>
+
+</usuarios>

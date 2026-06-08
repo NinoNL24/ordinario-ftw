@@ -28,13 +28,40 @@
 
     <main>
 
-        <h2>Login</h2>
+    <section>
 
-        <p>
-            Plataforma para explorar álbumes musicales, descubrir nuevos artistas y consultar rankings de música.
-        </p>
+        <h2>Iniciar sesión</h2>
 
-    </main>
+        <form id="loginForm">
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" required>
+
+            <br><br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" required>
+
+            <br><br>
+
+            <label>
+                <input type="checkbox">
+                Recordarme
+            </label>
+
+            <br><br>
+
+            <button type="submit">Ingresar</button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+    </section>
+
+</main>
+
+<script src="js/login.js"></script>
 
     <footer>
         <p>Proyecto final - Fundamentos de Tecnologías Web</p>
