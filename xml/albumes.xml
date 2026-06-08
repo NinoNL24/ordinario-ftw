@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<albumes>
+
+    <album>
+        <titulo>OK Computer</titulo>
+        <artista>Radiohead</artista>
+        <genero>Rock Alternativo</genero>
+        <anio>1997</anio>
+    </album>
+
+    <album>
+        <titulo>In Rainbows</titulo>
+        <artista>Radiohead</artista>
+        <genero>Rock Alternativo</genero>
+        <anio>2007</anio>
+    </album>
+
+    <album>
+        <titulo>Kid A</titulo>
+        <artista>Radiohead</artista>
+        <genero>Rock Alternativo</genero>
+        <anio>2000</anio>
+    </album>
+
+    <album>
+        <titulo>AM</titulo>
+        <artista>Arctic Monkeys</artista>
+        <genero>Indie</genero>
+        <anio>2013</anio>
+    </album>
+
+    <album>
+        <titulo>Discovery</titulo>
+        <artista>Daft Punk</artista>
+        <genero>Electrónica</genero>
+        <anio>2001</anio>
+    </album>
+
+</albumes>

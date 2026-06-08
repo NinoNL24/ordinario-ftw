@@ -66,3 +66,28 @@ button {
 button:hover {
     opacity: 0.9;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1D2228;
+    color: #79BDD4;
+}
+
+tr:nth-child(even) {
+    background-color: #1A1F24;
+}
+
+tr:hover {
+    background-color: #252C33;
+}
