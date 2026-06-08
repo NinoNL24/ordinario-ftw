@@ -134,3 +134,48 @@ tr:hover {
     }
 
 }
+
+
+
+
+.contenedorAlbumes {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    margin-bottom: 40px;
+
+}
+
+.tarjetaAlbum {
+
+    background-color: #1D2228;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    width: 180px;
+
+    text-align: center;
+
+}
+
+.tarjetaAlbum img {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+.tarjetaAlbum h3 {
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+}

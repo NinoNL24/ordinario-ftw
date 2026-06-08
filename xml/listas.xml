@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listas>
+
+    <favoritos>
+        <album>2</album>
+        <album>9</album>
+        <album>7</album>
+    </favoritos>
+
+    <escucharDespues>
+        <album>11</album>
+        <album>3</album>
+        <album>6</album>
+    </escucharDespues>
+
+</listas>
