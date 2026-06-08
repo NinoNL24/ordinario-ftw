@@ -100,3 +100,37 @@ tr:hover {
     border-radius: 10px;
     margin: 0 auto 20px auto;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .portadaAlbum {
+        width: 180px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
