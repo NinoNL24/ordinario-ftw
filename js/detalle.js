@@ -48,7 +48,18 @@ fetch("xml/albumes.xml")
                     .getElementsByTagName("descripcion")[0]
                     .textContent;
 
+                const imagen = albumes[i]
+                    .getElementsByTagName("imagen")[0]
+                    .textContent;
+
                 contenedor.innerHTML = `
+
+                 <img
+                    src="img/portadas/${imagen}"
+                    alt="Portada del álbum ${titulo}"
+                    class="portadaAlbum"
+                >
+
                     <h2>${titulo}</h2>
 
                     <p><strong>Artista:</strong> ${artista}</p>
@@ -62,6 +73,7 @@ fetch("xml/albumes.xml")
                     <p><strong>Duración:</strong> ${duracion} minutos</p>
 
                     <p><strong>Descripción:</strong> ${descripcion}</p>
+
                 `;
 
                 break;

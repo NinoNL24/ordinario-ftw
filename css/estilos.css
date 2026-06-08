@@ -91,3 +91,12 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #252C33;
 }
+
+
+.portadaAlbum {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}

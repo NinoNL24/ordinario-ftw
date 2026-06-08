@@ -5,6 +5,8 @@
     <album>
     <id>1</id>
         <titulo>OK Computer</titulo>
+        <imagen>Radioheadokcomputer.png</imagen>
+
         <artista>Radiohead</artista>
         <genero>Rock Alternativo</genero>
         <anio>1997</anio>
@@ -20,7 +22,7 @@
     <id>2</id>
 
     <titulo>In Rainbows</titulo>
-
+    <imagen>inrainbows.jpg</imagen>
     <artista>Radiohead</artista>
 
     <genero>Rock Alternativo</genero>
@@ -39,6 +41,7 @@
     <album>
     <id>3</id>
         <titulo>DAMN.</titulo>
+        <imagen>damn.jpg</imagen>
         <artista>Kendrick Lamar</artista>
         <genero>Hip Hop</genero>
         <anio>2017</anio>
@@ -54,6 +57,7 @@
     <album>
     <id>4</id>
         <titulo>AM</titulo>
+        <imagen>am.jpg</imagen>
         <artista>Arctic Monkeys</artista>
         <genero>Indie</genero>
         <anio>2013</anio>
@@ -68,6 +72,7 @@
     <album>
     <id>5</id>
         <titulo>Discovery</titulo>
+        <imagen>discovery.png</imagen>
         <artista>Daft Punk</artista>
         <genero>Electrónica</genero>
         <anio>2001</anio>
@@ -83,6 +88,7 @@
     <album>
     <id>6</id>
     <titulo>The Car</titulo>
+    <imagen>thecar.jpg</imagen>
     <artista>Arctic Monkeys</artista>
     <genero>Indie</genero>
     <anio>2022</anio>
@@ -96,6 +102,7 @@
 <album>
     <id>7</id>
     <titulo>The New Abnormal</titulo>
+    <imagen>thenew.jpg</imagen>
     <artista>The Strokes</artista>
     <genero>Indie</genero>
     <anio>2020</anio>
@@ -109,6 +116,7 @@
 <album>
     <id>8</id>
     <titulo>Un Verano Sin Ti</titulo>
+    <imagen>unverano.jpg</imagen>
     <artista>Bad Bunny</artista>
     <genero>Reggaetón</genero>
     <anio>2022</anio>
@@ -122,6 +130,7 @@
 <album>
     <id>9</id>
     <titulo>Thriller</titulo>
+    <imagen>thriller.jpg</imagen>
     <artista>Michael Jackson</artista>
     <genero>Pop</genero>
     <anio>1982</anio>
@@ -135,6 +144,7 @@
 <album>
     <id>10</id>
     <titulo>Ten</titulo>
+    <imagen>ten.jpg</imagen>
     <artista>Pearl Jam</artista>
     <genero>Rock Alternativo</genero>
     <anio>1991</anio>
@@ -149,6 +159,7 @@
     <id>11</id>
     <titulo>Nevermind</titulo>
     <artista>Nirvana</artista>
+    <imagen>nevermind.jpg</imagen>
     <genero>Rock Alternativo</genero>
     <anio>1991</anio>
     <calificacion>4.8</calificacion>
@@ -162,6 +173,7 @@
     <id>12</id>
     <titulo>Sgt. Pepper's Lonely Hearts Club Band</titulo>
     <artista>The Beatles</artista>
+    <imagen>sgt.jpg</imagen>
     <genero>Rock</genero>
     <anio>1967</anio>
     <calificacion>4.8</calificacion>
@@ -176,6 +188,7 @@
     <titulo>Nectar</titulo>
     <artista>Joji</artista>
     <genero>Pop</genero>
+    <imagen>nectar.jpg</imagen>
     <anio>2020</anio>
     <calificacion>4.4</calificacion>
     <duracion>53</duracion>
